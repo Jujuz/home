@@ -1,7 +1,8 @@
 package canvas;
 
-import javax.swing.JFrame;
-class EmptyFrame{
+import javax.swing.*;
+
+class EmptyFrame {
     public static void main(String[] args) {
 
         // Construct the JFrame object
@@ -21,9 +22,5 @@ class EmptyFrame{
         appFrame.setVisible(true);
 
 
-
-
-
-        
     }
 }

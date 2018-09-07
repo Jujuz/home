@@ -1,11 +1,12 @@
 package canvas;
 
-import javax.swing.JFrame;
+import javax.swing.*;
 
 public class HistogramViewer {
     public static void main(String[] args) {
         JFrame appFrame = new JFrame();
         HistogramComponent histogramComponent = new HistogramComponent();
+
 
         appFrame.setSize(400, 250);
         appFrame.setTitle("Histogram Viewer");
